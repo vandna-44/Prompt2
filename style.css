@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f5;
+}
+
+.credit-card {
+    width: 320px;
+    height: 200px;
+    border-radius: 15px;
+    background: linear-gradient(135deg, #0f0803, #3b3c3f);
+    color: white;
+    padding: 20px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+    position: relative;
+}
+
+.card-chip {
+    width: 50px;
+    height: 35px;
+    background-color: gold;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+.card-details {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.card-number {
+    font-size: 1.4em;
+    letter-spacing: 3px;
+}
+
+.card-holder,
+.card-expiration {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.9em;
+}
+
+.card-holder p,
+.card-expiration p {
+    font-weight: bold;
+}
